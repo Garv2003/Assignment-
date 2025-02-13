@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "ES2017",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": [
+            "esnext"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "module": "commonjs"
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
